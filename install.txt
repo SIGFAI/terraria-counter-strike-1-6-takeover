@@ -1,0 +1,1 @@
+Copy Sigf.tmod into Documents/My Games/Terraria/tModLoader/Mods and enable it in tModLoader's Mods menu. Soldiers appear in the forest and drop the AK-47 and C4: use C4 to plant a bomb.

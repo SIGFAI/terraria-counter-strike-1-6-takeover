@@ -1,0 +1,5 @@
+Moments the clip must show:
+[x] 1. Title "COUNTER-STRIKE 1.6", CS-style amber HUD, radar, pixel Terrorists and Counter-Terrorists spawn in the forest ("Round 1").
+[x] 2. Player fires the AK-47 with muzzle flash: soldiers fall, kill feed "SIGF [AK-47] Terrorist", "+$300" and money rising.
+[x] 3. C4 planted next to a wooden crate stack: red beeping bomb with countdown in the HUD, then it explodes (white flash), leaving a crater in the blocks.
+[x] 4. Round won banner "COUNTER-TERRORISTS WIN" and next round starts.
