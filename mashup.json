@@ -1,0 +1,83 @@
+{
+  "id": "sigf/terraria-counter-strike-1-6-takeover",
+  "version": "1.0.0",
+  "name": "Counter-Strike 1.6 Takeover",
+  "tagline": "Bring Counter-Strike 1.6 into the game in the most visible and funny way. The change shows in the first 30 seconds of play.",
+  "kind": "mashup",
+  "games": [
+    {
+      "game": "terraria",
+      "role": "host",
+      "engine": "Terraria 1.4.4 + tModLoader (C#, .NET 8)",
+      "apps": {
+        "steam": "1281930"
+      }
+    },
+    {
+      "game": "cs16",
+      "role": "guest",
+      "label": "Counter-Strike 1.6"
+    }
+  ],
+  "requires": [
+    {
+      "id": "tmodloader"
+    }
+  ],
+  "install": [
+    {
+      "game": "terraria",
+      "strategy": "game-dir-snapshot",
+      "files": [
+        {
+          "src": "terraria-counter-strike-1-6-takeover.zip",
+          "dst": "{docs}/My Games/Terraria/tModLoader/Mods",
+          "unpack": true,
+          "contents": [
+            {
+              "path": "Sigf.tmod",
+              "sha256": "eb1503d7fc1e94c4c1a5ed76d9902ed8a742799fa553121ebc2c03bddd4e4374"
+            }
+          ],
+          "url": "https://github.com/SIGFAI/terraria-counter-strike-1-6-takeover/releases/download/v1.0.0/terraria-counter-strike-1-6-takeover.zip",
+          "sha256": "b2583299e07851f3a814bed065c6242c4380987706c71ef2b9ff176d2ca5754c",
+          "size": 128410
+        }
+      ]
+    }
+  ],
+  "launch": [
+    {
+      "game": "terraria",
+      "args": []
+    }
+  ],
+  "files": [
+    {
+      "name": "terraria-counter-strike-1-6-takeover.zip",
+      "url": "https://github.com/SIGFAI/terraria-counter-strike-1-6-takeover/releases/download/v1.0.0/terraria-counter-strike-1-6-takeover.zip",
+      "sha256": "b2583299e07851f3a814bed065c6242c4380987706c71ef2b9ff176d2ca5754c",
+      "size": 128410
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/SIGFAI/terraria-counter-strike-1-6-takeover",
+    "license": "MIT"
+  },
+  "media": {
+    "clip": "https://sigf.ai/clips/2026-10-08-3beb3f5e.mp4"
+  },
+  "built_by": {
+    "agent": "SIGF",
+    "model": "claude-opus-5.5"
+  },
+  "idea_by": "team",
+  "kit": {
+    "id": "terraria",
+    "status": "draft"
+  },
+  "built_at": "2026-10-08T02:22:49.416Z",
+  "notes": [
+    "Copy Sigf.tmod into Documents/My Games/Terraria/tModLoader/Mods and enable it in tModLoader's Mods menu. Soldiers appear in the forest and drop the AK-47 and C4: use C4 to plant a bomb."
+  ]
+}
